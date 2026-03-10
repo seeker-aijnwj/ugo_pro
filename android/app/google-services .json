@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514912023011",
+    "project_id": "u-go-c28e1",
+    "storage_bucket": "u-go-c28e1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514912023011:android:a955c8058a02d58f02f0d6",
+        "android_client_info": {
+          "package_name": "com.u_go.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbqhpp0MNrTwGHsH9SBi--ls0kkwtPq8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

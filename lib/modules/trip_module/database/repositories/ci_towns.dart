@@ -1,0 +1,120 @@
+// Cette page présente le modèle de données pour les communes (CI-Towns)
+// Elle est utilisée par le module géographique pour les suggestions de lieux.
+
+import 'package:u_go/modules/trip_module/database/models/place_ref.dart';
+
+// ------ Côte d’Ivoire : communes du Grand Abidjan ------
+const List<PlaceRef> kCITowns = [
+  // Abidjan (communes)
+  PlaceRef(
+    name: "Abobo",
+    town: "Abobo",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Adjamé",
+    town: "Adjamé",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Anyama",
+    town: "Anyama",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Attécoubé",
+    town: "Attécoubé",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: 'Bingerville',  
+    town: 'Bingerville',
+    city: 'Bingerville',
+    state: 'Grand Abidjan',
+    country: 'CI',
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Cocody",
+    town: "Cocody",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: 'Grand Bassam', 
+    city: 'Abidjan',
+    state: 'Grand Abidjan',
+    country: 'CI',
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Koumassi",
+    town: "Kouamssi",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Marcory",
+    town: "Marcory",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Le Plateau",
+    town: "Plateau",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Port-Bouët",
+    town: "Port-Bouët",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Songon",
+    town: "Songon",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Treichville",
+    town: "Treichville",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+  PlaceRef(
+    name: "Yopougon",
+    town: "Yopougon",
+    city: "Abidjan",
+    state: "Grand Abidjan",
+    country: "CI",
+    tags: ["commune", "abidjan"],
+  ),
+];
